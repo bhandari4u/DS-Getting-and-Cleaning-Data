@@ -16,48 +16,50 @@ These signals were used to estimate variables of the feature vector for each pat
 
 Activity and Subject_ID variables are used to categorize the measurement values. The reason there are only 40 rows in the output, because not every subject participated in all the six activities. Averages for the mean and std attributes are grouped by a combination of Subject and Activity. 
 
+## Attribute Description
 Here is the complete list of these attributes:
-1.	Activity
-2.	Subject_ID
-3.	tBodyAcc-mean()-X
-4.	tBodyAcc-mean()-Y
-5.	tBodyAcc-mean()-Z
-6.	tBodyAcc-std()-X
-7.	tBodyAcc-std()-Y
-8.	tBodyAcc-std()-Z
-9.	tGravityAcc-mean()-X
-10.	tGravityAcc-mean()-Y
-11.	tGravityAcc-mean()-Z
-12.	tGravityAcc-std()-X
-13.	tGravityAcc-std()-Y
-14.	tGravityAcc-std()-Z
-15.	tBodyAccJerk-mean()-X
-16.	tBodyAccJerk-mean()-Y
-17.	tBodyAccJerk-mean()-Z
-18.	tBodyAccJerk-std()-X
-19.	tBodyAccJerk-std()-Y
-20.	tBodyAccJerk-std()-Z
-21.	tBodyGyro-mean()-X
-22.	tBodyGyro-mean()-Y
-23.	tBodyGyro-mean()-Z
-24.	tBodyGyro-std()-X
-25.	tBodyGyro-std()-Y
-26.	tBodyGyro-std()-Z
-27.	tBodyGyroJerk-mean()-X
-28.	tBodyGyroJerk-mean()-Y
-29.	tBodyGyroJerk-mean()-Z
-30.	tBodyGyroJerk-std()-X
-31.	tBodyGyroJerk-std()-Y
-32.	tBodyGyroJerk-std()-Z
-33.	tBodyAccMag-mean()
-34.	tBodyAccMag-std()
-35.	tGravityAccMag-mean()
-36.	tGravityAccMag-std()
-37.	tBodyAccJerkMag-mean()
-38.	tBodyAccJerkMag-std()
-39.	tBodyGyroMag-mean()
-40.	tBodyGyroMag-std()
-41.	tBodyGyroJerkMag-mean()
+1.	Activity - Activity type: Possible values are 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING and 6 LAYING
+
+2.	Subject_ID: This field identifies the subject that was involved in the experimental activity. Ranges from 1 to 30.
+3.	tBodyAcc-mean()-X: Average values of the time factor body movement measurement from accelerometer - X axis 
+4.	tBodyAcc-mean()-Y: Average values of the time factor body movement measurement from accelerometer - Y axis
+5.	tBodyAcc-mean()-Z: Average values of the time factor body movement measurement from accelerometer - Z axis
+6.	tBodyAcc-std()-X: Standard deviation of the time factor body movement  measurement from accelerometer - X axis
+7.	tBodyAcc-std()-Y: Standard deviation of the time factor body movement measurement from accelerometer - Y axis
+8.	tBodyAcc-std()-Z: Standard deviation of the time factor body movement measurement from accelerometer - Z axis
+9.	tGravityAcc-mean()-X: Average values of the time factor gravity measurement from accelerometer - X axis 
+10.	tGravityAcc-mean()-Y: Average values of the time factor gravity measurement from accelerometer - Y axis
+11.	tGravityAcc-mean()-Z: Average values of the time factor gravity measurement from accelerometer - Z axis
+12.	tGravityAcc-std()-X: Standard deviation of the time factor gravity measurement from accelerometer - X axis
+13.	tGravityAcc-std()-Y: Standard deviation of the time factor gravity measurement from accelerometer - Y axis
+14.	tGravityAcc-std()-Z: Standard deviation of the time factor gravity measurement from accelerometer - Z axis
+15.	tBodyAccJerk-mean()-X: Average values of the time factor body jerk measurement from accelerometer - X axis
+16.	tBodyAccJerk-mean()-Y: Average values of the time factor body jerk measurement from accelerometer - Y axis
+17.	tBodyAccJerk-mean()-Z: Average values of the time factor body jerk measurement from accelerometer - Z axis
+18.	tBodyAccJerk-std()-X: Standard deviation of the time factor body jerk measurement from accelerometer - X axis
+19.	tBodyAccJerk-std()-Y: Standard deviation of the time factor body jerk measurement from accelerometer - Y axis
+20.	tBodyAccJerk-std()-Z: Standard deviation of the time factor body jerk measurement from accelerometer - Z axis
+21.	tBodyGyro-mean()-X: Average values of the time factor body movement measurement from Gyroscope - X axis
+22.	tBodyGyro-mean()-Y: Average values of the time factor body movement measurement from Gyroscope - Y axis
+23.	tBodyGyro-mean()-Z: Average values of the time factor body movement measurement from Gyroscope - Z axis
+24.	tBodyGyro-std()-X: Standard Deviation of the time factor body movement measurement from Gyroscope - X axis
+25.	tBodyGyro-std()-Y: Standard Deviation of the time factor body movement measurement from Gyroscope - Y axis
+26.	tBodyGyro-std()-Z: Standard Deviation of the time factor body movement measurement from Gyroscope - Z axis
+27.	tBodyGyroJerk-mean()-X: Average values of the time factor body jerk measurement from Gyroscope - X axis
+28.	tBodyGyroJerk-mean()-Y: Average values of the time factor body jerk measurement from Gyroscope - Y axis
+29.	tBodyGyroJerk-mean()-Z: Average values of the time factor body jerk measurement from Gyroscope - Z axis
+30.	tBodyGyroJerk-std()-X: Standard Deviation of the time factor body jerk measurement from Gyroscope - X axis
+31.	tBodyGyroJerk-std()-Y: Standard Deviation of the time factor body jerk measurement from Gyroscope - Y axis
+32.	tBodyGyroJerk-std()-Z: Standard Deviation of the time factor body jerk measurement from Gyroscope - Z axis
+33.	tBodyAccMag-mean(): Average values of the Euclidean norm for time factor body movement measurement from accelerometer
+34.	tBodyAccMag-std(): Standard Deviation of the Euclidean norm for time factor body movement measurement from accelerometer
+35.	tGravityAccMag-mean(): Average values of the Euclidean norm for time factor Gravity measurement from accelerometer 
+36.	tGravityAccMag-std(): Standard Deviation of the Euclidean norm for Gravity body movement measurement from accelerometer
+37.	tBodyAccJerkMag-mean(): Average values of the Euclidean norm for time factor body jerk measurement from accelerometer
+38.	tBodyAccJerkMag-std(): Standard Deviation of the Euclidean norm for time factor body jerk measurement from accelerometer
+39.	tBodyGyroMag-mean(): Average values of the Euclidean norm for time factor body movement measurement from Gyroscope
+40.	tBodyGyroMag-std(): Standard Deviation of the Euclidean norm for time factor body movement measurement from Gyroscope
+41.	tBodyGyroJerkMag-mean(): Average values of the Euclidean norm for time factor body movement measurement from Gyroscope
 42.	tBodyGyroJerkMag-std()
 43.	fBodyAcc-mean()-X
 44.	fBodyAcc-mean()-Y
