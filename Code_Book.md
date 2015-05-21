@@ -108,3 +108,4 @@ Here is the complete list of these attributes:
 87.	angle(Y,gravityMean): Angle masurement of the Y-axis and mean gravity
 88.	angle(Z,gravityMean): Angle masurement of the Z-axis and mean gravity
 
+Source data where this tidy data has been extracted is located at the below link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
