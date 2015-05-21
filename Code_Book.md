@@ -107,3 +107,4 @@ Here is the complete list of these attributes:
 86.	angle(X,gravityMean): Angle masurement of the X-axis and mean gravity
 87.	angle(Y,gravityMean): Angle masurement of the Y-axis and mean gravity
 88.	angle(Z,gravityMean): Angle masurement of the Z-axis and mean gravity
+
