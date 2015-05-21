@@ -60,50 +60,50 @@ Here is the complete list of these attributes:
 39.	tBodyGyroMag-mean(): Average values of the Euclidean norm for time factor body movement measurement from Gyroscope
 40.	tBodyGyroMag-std(): Standard Deviation of the Euclidean norm for time factor body movement measurement from Gyroscope
 41.	tBodyGyroJerkMag-mean(): Average values of the Euclidean norm for time factor body movement measurement from Gyroscope
-42.	tBodyGyroJerkMag-std()
-43.	fBodyAcc-mean()-X
-44.	fBodyAcc-mean()-Y
-45.	fBodyAcc-mean()-Z
-46.	fBodyAcc-std()-X
-47.	fBodyAcc-std()-Y
-48.	fBodyAcc-std()-Z
-49.	fBodyAcc-meanFreq()-X
-50.	fBodyAcc-meanFreq()-Y
-51.	fBodyAcc-meanFreq()-Z
-52.	fBodyAccJerk-mean()-X
-53.	fBodyAccJerk-mean()-Y
-54.	fBodyAccJerk-mean()-Z
-55.	fBodyAccJerk-std()-X
-56.	fBodyAccJerk-std()-Y
-57.	fBodyAccJerk-std()-Z
-58.	fBodyAccJerk-meanFreq()-X
-59.	fBodyAccJerk-meanFreq()-Y
-60.	fBodyAccJerk-meanFreq()-Z
-61.	fBodyGyro-mean()-X
-62.	fBodyGyro-mean()-Y
-63.	fBodyGyro-mean()-Z
-64.	fBodyGyro-std()-X
-65.	fBodyGyro-std()-Y
-66.	fBodyGyro-std()-Z
-67.	fBodyGyro-meanFreq()-X
-68.	fBodyGyro-meanFreq()-Y
-69.	fBodyGyro-meanFreq()-Z
-70.	fBodyAccMag-mean()
-71.	fBodyAccMag-std()
-72.	fBodyAccMag-meanFreq()
-73.	fBodyBodyAccJerkMag-mean()
-74.	fBodyBodyAccJerkMag-std()
-75.	fBodyBodyAccJerkMag-meanFreq()
-76.	fBodyBodyGyroMag-mean()
-77.	fBodyBodyGyroMag-std()
-78.	fBodyBodyGyroMag-meanFreq()
-79.	fBodyBodyGyroJerkMag-mean()
-80.	fBodyBodyGyroJerkMag-std()
-81.	fBodyBodyGyroJerkMag-meanFreq()
-82.	angle(tBodyAccMean,gravity)
-83.	angle(tBodyAccJerkMean),gravityMean)
-84.	angle(tBodyGyroMean,gravityMean)
-85.	angle(tBodyGyroJerkMean,gravityMean)
-86.	angle(X,gravityMean)
-87.	angle(Y,gravityMean)
-88.	angle(Z,gravityMean)
+42.	tBodyGyroJerkMag-std(): Standard Deviation of the Euclidean norm for time factor body movement measurement from Gyroscope
+43.	fBodyAcc-mean()-X: FFT average of the time factor body movement  measurement from accelerometer - X axis
+44.	fBodyAcc-mean()-Y: FFT average of the time factor body movement  measurement from accelerometer - Y axis
+45.	fBodyAcc-mean()-Z: FFT average of the time factor body movement  measurement from accelerometer - Z axis
+46.	fBodyAcc-std()-X: FFT Standard deviation of the time factor body movement  measurement from accelerometer - X axis
+47.	fBodyAcc-std()-Y: FFT Standard deviation of the time factor body movement  measurement from accelerometer - Y axis
+48.	fBodyAcc-std()-Z: FFT Standard deviation of the time factor body movement  measurement from accelerometer - Z axis
+49.	fBodyAcc-meanFreq()-X: FFT mean frequency of the time factor body movement  measurement from accelerometer - X axis
+50.	fBodyAcc-meanFreq()-Y: FFT mean frequency of the time factor body movement  measurement from accelerometer - Y axis
+51.	fBodyAcc-meanFreq()-Z: FFT mean frequency of the time factor body movement  measurement from accelerometer - Z axis
+52.	fBodyAccJerk-mean()-X: FFT average values of the time factor body jerk measurement from accelerometer - X axis
+53.	fBodyAccJerk-mean()-Y: FFT average values of the time factor body jerk measurement from accelerometer - Y axis
+54.	fBodyAccJerk-mean()-Z: FFT average values of the time factor body jerk measurement from accelerometer - Z axis
+55.	fBodyAccJerk-std()-X: FFT standard deviation of the time factor body jerk measurement from accelerometer - X axis
+56.	fBodyAccJerk-std()-Y: FFT standard deviation of the time factor body jerk measurement from accelerometer - Y axis
+57.	fBodyAccJerk-std()-Z: FFT standard deviation of the time factor body jerk measurement from accelerometer - Z axis
+58.	fBodyAccJerk-meanFreq()-X: FFT mean frequency of the time factor body jerk measurement from accelerometer - X axis
+59.	fBodyAccJerk-meanFreq()-Y: FFT mean frequency of the time factor body jerk measurement from accelerometer - Y axis
+60.	fBodyAccJerk-meanFreq()-Z: FFT mean frequency of the time factor body jerk measurement from accelerometer - Z axis
+61.	fBodyGyro-mean()-X: FFT average values of the time factor body movement measurement from Gyroscope - X axis
+62.	fBodyGyro-mean()-Y: FFT average values of the time factor body movement measurement from Gyroscope - Y axis
+63.	fBodyGyro-mean()-Z: FFT average values of the time factor body movement measurement from Gyroscope - Z axis
+64.	fBodyGyro-std()-X: FFT standard deviation values of the time factor body movement measurement from Gyroscope - X axis
+65.	fBodyGyro-std()-Y: FFT standard deviation values of the time factor body movement measurement from Gyroscope - Y axis
+66.	fBodyGyro-std()-Z: FFT standard deviation values of the time factor body movement measurement from Gyroscope - Z axis
+67.	fBodyGyro-meanFreq()-X: FFT mean frequency of the time factor body movement measurement from Gyroscope - X axis
+68.	fBodyGyro-meanFreq()-Y: FFT mean frequency of the time factor body movement measurement from Gyroscope - Y axis
+69.	fBodyGyro-meanFreq()-Z: FFT mean frequency of the time factor body movement measurement from Gyroscope - Z axis
+70.	fBodyAccMag-mean(): FFT average values of the Euclidean norm for time factor body movement measurement from accelerometer
+71.	fBodyAccMag-std(): FFT standard deviation of the Euclidean norm for time factor body movement measurement from accelerometer
+72.	fBodyAccMag-meanFreq(): FFT mean frequency of the Euclidean norm for time factor body movement measurement from accelerometer
+73.	fBodyAccJerkMag-mean(): FFT average values of the Euclidean norm for time factor body movement measurement from Gyroscope
+74.	fBodyAccJerkMag-std(): FFT standard deviation of the Euclidean norm for time factor body movement measurement from Gyroscope
+75.	fBodyAccJerkMag-meanFreq(): FFT mean frequency of the Euclidean norm for time factor body movement measurement from Gyroscope
+76.	fBodyGyroMag-mean(): FFT Average values of the Euclidean norm for time factor body movement measurement from Gyroscope
+77.	fBodyGyroMag-std(): FFT standard deviation of the Euclidean norm for time factor body movement measurement from Gyroscope
+78.	fBodyGyroMag-meanFreq(): FFT mean frequency of the Euclidean norm for time factor body movement measurement from Gyroscope
+79.	fBodyGyroJerkMag-mean(): FFT Average values of the Euclidean norm for time factor body movement measurement from Gyroscope
+80.	fBodyGyroJerkMag-std(): FFT standard deviation of the Euclidean norm for time factor body movement measurement from Gyroscope
+81.	fBodyGyroJerkMag-meanFreq(): FFT mean frequency of the Euclidean norm for time factor body movement measurement from Gyroscope
+82.	angle(tBodyAccMean,gravity): Angle masurement of the mean time body accelerometer and gravity 
+83.	angle(tBodyAccJerkMean),gravityMean): Angle masurement of the mean time body jerk accelerometer and mean gravity
+84.	angle(tBodyGyroMean,gravityMean): Angle masurement of the mean time body gyrometer and mean gravity
+85.	angle(tBodyGyroJerkMean,gravityMean): Angle masurement of the mean time body jerk gyrometer and mean gravity
+86.	angle(X,gravityMean): Angle masurement of the X-axis and mean gravity
+87.	angle(Y,gravityMean): Angle masurement of the Y-axis and mean gravity
+88.	angle(Z,gravityMean): Angle masurement of the Z-axis and mean gravity
