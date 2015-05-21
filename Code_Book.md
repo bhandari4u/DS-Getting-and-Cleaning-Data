@@ -18,7 +18,7 @@ Activity and Subject_ID variables are used to categorize the measurement values.
 
 ## Attribute Description
 Here is the complete list of these attributes:
-1.	Activity - Activity type: Possible values are 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING and 6 LAYING
+1.	Activity - Activity type: Possible values are 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING and 6 LAYING 
 2.	Subject_ID: This field identifies the subject that was involved in the experimental activity. Ranges from 1 to 30.
 3.	tBodyAcc-mean()-X: Average values of the time factor body movement measurement from accelerometer - X axis 
 4.	tBodyAcc-mean()-Y: Average values of the time factor body movement measurement from accelerometer - Y axis
